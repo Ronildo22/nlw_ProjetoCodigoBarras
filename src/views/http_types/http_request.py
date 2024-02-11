@@ -1,4 +1,3 @@
-from typing import Dict
 
 
 class HttpRequest:
@@ -7,7 +6,7 @@ class HttpRequest:
         Class with responsibility to store components HTTP(header, body, query_params)
     """
 
-    def __init__(self, header: Dict = None, body: Dict = None, query_params: Dict = None) -> None:
+    def __init__(self, header: dict = None, body: dict = None, query_params: dict = None) -> None:
 
 
         self.header = header

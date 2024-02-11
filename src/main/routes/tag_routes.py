@@ -11,7 +11,7 @@ def create_tags():
 
     body = request.json
 
-    if body is dict:
+    if isinstance(body, dict):
 
         http_request = HttpRequest(body=body)
 
