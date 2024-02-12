@@ -16,7 +16,7 @@ class TagCreatorController:
     def __format_response(self, path_from_tag: str) -> dict:
 
         resp = {
-            'data': 'Tag Iamge',
+            'data': 'Tag Image',
             'count': 1,
             'path': f'{path_from_tag}.png'
         }
