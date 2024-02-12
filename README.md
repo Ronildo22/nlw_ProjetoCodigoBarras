@@ -48,8 +48,14 @@ Pronto agora você pode realizar um commit de teste para verificar a execução 
 <img src="/docs/img/exemple_execute_pylint.png" alt="Image with example execute pylint" style="align: center;">
 
 
+## Para executar os testes unitarios usando o pytest, utilize:
 
+```bat
+  pytest
+```
 
+### Para uma execução mais detalhada utilize:
 
-
-
+```bat
+  pytest -s -v
+```
